@@ -21,7 +21,7 @@ filegroup(
   srcs = glob(["include/**/*"])
 )
 
-cc_inc_library(
+cc_library(
   name = "include",
   hdrs = [":libcxxabi_includes"]
 )
